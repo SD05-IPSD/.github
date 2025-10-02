@@ -38,7 +38,7 @@ Throughout this lecture, students will learn:
 
 ## 📂 Repository Structure
 The repository will be organized by modules. Each module will contain lecture materials, exercises, and assignments.  
-Students are expected to push their solutions into the corresponding module folder.
+Students are expected to add their solutions into the corresponding module folder via the GitHub web interface.
 
 ```bash
 ├── 01-modul/
@@ -51,65 +51,16 @@ Students are expected to push their solutions into the corresponding module fold
 
 ---
 
-## 🚀 How to Contribute (Step by Step)
+## 🚀 How to Contribute (GitHub Web Only)
 
-### 1. Fork the Repository
-
-Click the Fork button on the top right of this repo to copy it into your own GitHub account.
-
-### 2. Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
-```
-
-### 3. Configure Git (first time only)
-
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
-```
-
-### 4. Create a New Branch
-
-It’s recommended to work on a separate branch:
-
-```bash
-git checkout -b modul-01-yourname
-```
-
-### 5. Add Your Work
-
-Place your code, notebooks, or solutions inside the correct module folder (e.g., `01-modul-python-basic/`).
-
-### 6. Stage Your Changes
-
-```bash
-git add .
-```
-
-### 7. Commit with a Clear Message
-
-```bash
-git commit -m "Add assignment for Modul 01 - Python Basics"
-```
-
-### 8. Push to Your Fork
-
-```bash
-git push origin modul-01-yourname
-```
-
-### 9. Submit a Pull Request (PR)
-
-- Go to your forked repo on GitHub.  
-- Click Compare & pull request to propose your changes to the main repository.
-
-Detailed steps:
-1. Go to your forked repository on GitHub.  
-2. Click Compare & pull request.  
-3. Submit your changes for review to the main repository.
+1. Open this repository on GitHub.
+2. Navigate to the correct module folder (e.g., `01-modul/`).
+3. Click Add file → Create new file (or Upload files).
+4. Name your file(s) appropriately (e.g., `assignment-01.ipynb`, `solution.py`).
+5. Add your content and scroll down to Commit changes.
+6. Write a clear commit message (e.g., "Add assignment for Modul 01 - Python Basics").
+7. Choose Commit directly to the main branch.
+8. Click Commit changes.
 
 ---
 
